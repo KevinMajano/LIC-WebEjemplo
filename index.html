@@ -4,15 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <script src="./js/jquery-3.4.1.min.js"></script>
     <title>Web Ejemplo</title>
 </head>
 <body>
-    <div class="styleReloj">
-        <canvas id="reloj" height="200px" width="200px">
-            Tu navegador no soporta canvas
-        </canvas>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container-fluido">
+        <div class="background-public padding">
+            <div class="row">
+                <div class="col col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <h2>Porque el tiempo es el mayor tesoro que poseemos...</h2>
+                </div>
+                <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="styleReloj">
+                        <canvas id="reloj" height="200px" width="200px">
+                            Tu navegador no soporta canvas
+                        </canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          
     </div>
+
     
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/script.js"></script>

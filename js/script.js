@@ -4,12 +4,12 @@ var ctx = canvas.getContext("2d");
 var radio = canvas.width/2;
 
 ctx.beginPath();
-ctx.fillStyle = "black";
+ctx.fillStyle = "white";
 ctx.arc(radio,radio,radio,0,2*Math.PI);
 ctx.fill();
 
 ctx.beginPath();
-ctx.fillStyle = "white";
+ctx.fillStyle = "black";
 ctx.arc(radio,radio,3,0,2*Math.PI);
 ctx.fill();
 
@@ -31,19 +31,19 @@ var angM = m * 2 *Math.PI/60;
 var angS = s * 2 *Math.PI/60;
 
 //Dibujar manesillas
-ctx.strokeStyle = "white";
+ctx.strokeStyle = "black";
 ctx.moveTo(radio,radio);
 ctx.lineTo(radio+radio*0.5*Math.sin(angH),radio-(radio*0.6*Math.cos(angH)));
 ctx.lineWidth = 5;
 ctx.stroke();
 
-ctx.strokeStyle = "white";
+ctx.strokeStyle = "black";
 ctx.moveTo(radio,radio);
 ctx.lineTo(radio+radio*0.7*Math.sin(angM),radio-(radio*0.6*Math.cos(angM)));
 ctx.lineWidth = 3;
 ctx.stroke();
 
-ctx.strokeStyle = "white";
+ctx.strokeStyle = "black";
 ctx.moveTo(radio,radio);
 ctx.lineTo(radio+radio*0.9*Math.sin(angS),radio-(radio*0.6*Math.cos(angS)));
 ctx.lineWidth = 1;

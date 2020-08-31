@@ -3,3 +3,24 @@
     width: 200px;
     padding: 60px;
 }
+.container-fluido{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.padding{
+    padding: 0px;
+}
+.margin{
+    margin: 0px;
+}
+.background-public{
+    background-image: url("../img/pexels-tatiana-fet-1105766.jpg");
+    width: 100%;
+    height: 600px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
