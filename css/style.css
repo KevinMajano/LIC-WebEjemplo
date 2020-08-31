@@ -1,3 +1,15 @@
+@font-face{
+    font-family: Alata-Regular;
+    src: url(../fonts/Alata-Regular.ttf);
+}
+@font-face{
+    font-family: Anton-Regular;
+    src: url(../fonts/Anton-Regular.ttf);
+}
+@font-face{
+    font-family: Oswald-VariableFont_wght;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
 .styleReloj{
     margin: 0 auto;
     width: 200px;
@@ -16,6 +28,9 @@
 .margin{
     margin: 0px;
 }
+.contenido{
+    padding: 20px;
+}
 .background-public{
     background-image: url("../img/pexels-tatiana-fet-1105766.jpg");
     width: 100%;
@@ -23,4 +38,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
+}
+.text-slider{
+    color: white;
+    font-family: Oswald-VariableFont_wght;
+}
+.titulo{
+    font-size: 60px;
 }
