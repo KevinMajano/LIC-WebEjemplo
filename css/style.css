@@ -91,9 +91,9 @@ padding-left: 20px;
 }
 .margin-20{
     margin-top: 90px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
 }
 /*FOOTER*/
 .footer-distributed{
